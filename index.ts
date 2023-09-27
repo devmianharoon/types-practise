@@ -1,4 +1,4 @@
-/*interface complexObject {
+interface complexObject {
     name: string,
     age: number,
     isStudent: boolean,
@@ -21,8 +21,8 @@ interface address {
 }
 interface grades {
     grade: {
-        math: math;
-        science: science;
+        math: math,
+        science: science
     };
 }
 interface math{
@@ -51,20 +51,22 @@ const complexObject:complexObject = {
         postalCode: "12345",
     },
     grades: {
-        math: {
-            midterm: 85,
-            final: 92,
-        },
-        science: {
-            midterm: 78,
-            final: 88,
+        grade: {
+            math: {
+                midterm: 85,
+                final: 92,
+            },
+            science: {
+                midterm: 78,
+                final: 88,
+            },
         },
     },
-    contact: {
+    contect: {
         email: "john.doe@example.com",
         phone: "+1234567890",
     }}
-    */
+    
 
 
 interface JSONDATA {
