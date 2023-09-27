@@ -1,47 +1,6 @@
 "use strict";
-/*interface complexObject {
-    name: string,
-    age: number,
-    isStudent: boolean,
-    interests: string[],
-    address: address,
-    grades:grades,
-    contect:contect
-
-
-
-}
-
-interface address {
-    street: string,
-    city: string,
-    postalCode: string,
-
-
-
-}
-interface grades {
-    grade: {
-        math: math;
-        science: science;
-    };
-}
-interface math{
-    midterm:number,
-    final:number,
-
-}
-interface science{
-    midterm:number,
-    final:number,
-
-}
-interface contect{
-    email:string,
-    phone:string
-}
-
-const complexObject:complexObject = {
+Object.defineProperty(exports, "__esModule", { value: true });
+const complexObject = {
     name: "John Doe",
     age: 30,
     isStudent: false,
@@ -52,21 +11,22 @@ const complexObject:complexObject = {
         postalCode: "12345",
     },
     grades: {
-        math: {
-            midterm: 85,
-            final: 92,
-        },
-        science: {
-            midterm: 78,
-            final: 88,
+        grade: {
+            math: {
+                midterm: 85,
+                final: 92,
+            },
+            science: {
+                midterm: 78,
+                final: 88,
+            },
         },
     },
-    contact: {
+    contect: {
         email: "john.doe@example.com",
         phone: "+1234567890",
-    }}
-    */
-Object.defineProperty(exports, "__esModule", { value: true });
+    }
+};
 const jsonData = {
     "name": "John Doe",
     "age": 30,
